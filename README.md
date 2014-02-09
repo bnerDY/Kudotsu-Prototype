@@ -7,6 +7,9 @@ The following content is the detail for the prototype.
 
 I provide two versions for the prototype.
 
+Model View Controller is choosen for this prototype.
+
+
 1. The application is built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later)
 
 
