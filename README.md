@@ -68,5 +68,10 @@ Check the table on windows azure.
 
 Create the bundle for jquery.
 
+
+##### I am not sure about why my connection to the MYSQL is ok, but I can not create table to store account information on the azure clearDB(MYSQL). Nevertheleess, I still provide the application using ADO.NET to show my database knowledge.
+
+
+
 Copyright (c) 2014, Martin Yu(bnerDY)
 All rights reserved.
