@@ -46,5 +46,8 @@ Solve the drop down list issue by using controller
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/3.jpg)
 
 
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/7.jpg)
+Check the table on windows azure.
 Copyright (c) 2014, Martin Yu(bnerDY)
 All rights reserved.
