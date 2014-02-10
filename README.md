@@ -1,7 +1,7 @@
 Kudotsu-Prototype
 =================
 
-Topic: Prototype for Kudotsu Ceed project using MVC5, Windows Azure cloud platform and Azure storage table in C#.
+#####Topic: Prototype for Kudotsu Ceed project using MVC5, Windows Azure cloud platform and Azure storage table in C#.
 
 The following content is the detail for the prototype.
 
@@ -10,7 +10,7 @@ I provide two versions for the prototype.
 Model View Controller is choosen for this prototype.
 
 
-1. The application is built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later) (In the folder Demo-2010)
+#####1. The application is built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later) (In the folder Demo-2010)
 
 It was built in ADO.NET technology. It can be executed locally by downloading the Demo-2010
 
@@ -24,7 +24,7 @@ Local database table for contact.
 Local database table for login.
 
 
-2.This version was made by MYSQL + MVC5 on azure. (In the folder Demo-2013)
+#####2.This version was made by MYSQL + MVC5 on azure. (In the folder Demo-2013)
 
 http://martindemo2013.azurewebsites.net/ public address
 
