@@ -17,10 +17,16 @@ Model View Controller is choosen for this prototype.
 
 Prequisites:
 
+Add clearDB(MySQL) first
+
+Create the website using clearDB
+
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/5.jpg)
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/6.jpg)
 
+
+MVC5 and MYSQL:
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/1.jpg)
 
