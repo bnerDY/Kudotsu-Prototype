@@ -15,6 +15,12 @@ Model View Controller is choosen for this prototype.
 
 2.This version was made by MYSQL + MVC5 on azure.
 
+Prequisites:
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/5.jpg)
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/6.jpg)
+
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/1.jpg)
 
