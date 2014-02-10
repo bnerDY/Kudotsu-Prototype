@@ -26,7 +26,7 @@ Local database table for login.
 
 #####2.This version was made by MYSQL + MVC5 on azure. (In the folder Demo-2013)
 
-http://martindemo2013.azurewebsites.net/ public address
+#####Public address   http://martindemo2013.azurewebsites.net/ 
 
 Prequisites:
 
