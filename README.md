@@ -12,6 +12,17 @@ Model View Controller is choosen for this prototype.
 
 1. The application is built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later) (In the folder Demo-2010)
 
+It was built in ADO.NET technology. It can be executed locally by downloading the Demo-2010
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/8.jpg)
+This is the general view for the page.
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/9.jpg)
+Local database table for contact.
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/10.jpg)
+Local database table for login.
+
 
 2.This version was made by MYSQL + MVC5 on azure. (In the folder Demo-2013)
 
