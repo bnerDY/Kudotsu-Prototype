@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidEmailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsValidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidEmail" />
+  </wsdl:message>
+  <wsdl:message name="ValidEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsValidSoapIn">
+    <wsdl:part name="parameters" element="tns:IsValid" />
+  </wsdl:message>
+  <wsdl:message name="IsValidSoapOut">
+    <wsdl:part name="parameters" element="tns:IsValidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ValidationSoap">
+    <wsdl:operation name="ValidEmail">
+      <wsdl:input message="tns:ValidEmailSoapIn" />
+      <wsdl:output message="tns:ValidEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsValid">
+      <wsdl:input message="tns:IsValidSoapIn" />
+      <wsdl:output message="tns:IsValidSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ValidationSoap" type="tns:ValidationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidEmail">
+      <soap:operation soapAction="http://tempuri.org/ValidEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValid">
+      <soap:operation soapAction="http://tempuri.org/IsValid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ValidationSoap12" type="tns:ValidationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidEmail">
+      <soap12:operation soapAction="http://tempuri.org/ValidEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValid">
+      <soap12:operation soapAction="http://tempuri.org/IsValid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Validation">
+    <wsdl:port name="ValidationSoap" binding="tns:ValidationSoap">
+      <soap:address location="http://localhost:7536/contactService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ValidationSoap12" binding="tns:ValidationSoap12">
+      <soap12:address location="http://localhost:7536/contactService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Prac3WebApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Prac3WebApp_ValidationRef_Validation" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7536/contactService.asmx</Value>
+    </Setting>
+    <Setting Name="Prac3WebApp_ReminderRef_Reminder_x0020_Web_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7536/ReminderService.asmx</Value>
+    </Setting>
+    <Setting Name="Prac3WebApp_LoginRef_RegisterService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7536/RegisterService.asmx</Value>
+    </Setting>
+    <Setting Name="Prac3WebApp_connRef_ADOWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7536/ADOWebService.asmx</Value>
+    </Setting>
+    <Setting Name="Prac3WebApp_searchRef_Search_x0020_web_x0020_service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7536/SearchService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
