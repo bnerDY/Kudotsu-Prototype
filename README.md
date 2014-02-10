@@ -30,7 +30,7 @@ MVC5 and MYSQL:
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/1.jpg)
 
-Update the entity framework to the lastest version and set up the MYSQL develop enviroment.
+Update the entity framework to the lastest version and set up the connect string for MYSQL develop enviroment.
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/2.jpg)
 
