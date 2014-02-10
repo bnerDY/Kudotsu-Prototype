@@ -32,6 +32,13 @@ MVC5 and MYSQL:
 
 Update the entity framework to the lastest version and set up the connect string for MYSQL develop enviroment.
 
+Set up the conncentionString at web config
+  <connectionStrings>
+    <add name="DefaultConnection"
+     connectionString="Database=martinDBMySQLDatabase;Data Source=us-cdbr-azure-east-c.cloudapp.net;User Id=b49aef2b5ee88f;Password=9f197ead"
+     providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/2.jpg)
 
 Add some fields to the register pages except the dropdownlist(state) and image upload
