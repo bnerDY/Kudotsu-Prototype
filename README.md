@@ -69,7 +69,7 @@ Prequisites:
 9.Create the bundle for JavaScript and corresponding css.
 
 
-##### FYI: The connection to the MYSQL is ok, By using MYSQL for storage, the default data storage mechanism for ASP.NET identity needs to be changed. So the table is not working so far on the azure. Nevertheless, I provide the application using ADO.NET to show the understanding of database and SQL on local machine.
+##### FYI: The connection to the MYSQL is ok, By using MYSQL for storage, the default data storage mechanism for ASP.NET identity needs to be changed. So the table is not working so far on the azure. Nevertheless, I provide the application using ADO.NET to show the understanding of database and SQL on local DB.
 
 
 
