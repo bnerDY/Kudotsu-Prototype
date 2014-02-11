@@ -66,10 +66,10 @@ Prequisites:
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/11.jpg)
 
-9.Create the bundle for JavaScript with corresponding css.
+9.Create the bundle for JavaScript and corresponding css.
 
 
-##### FYI: I am not sure about why my connection to the MYSQL is ok, but I can not create table to store account information on the azure clearDB(MYSQL). Nevertheless, I provide the application using ADO.NET to show my database and SQL knowledge.
+##### FYI: I am not sure about why my connection to the MYSQL is ok, but I can not create table to store account information on the azure clearDB(MYSQL). Nevertheless, I provide the application using ADO.NET to show database and SQL on local machine.
 
 
 
