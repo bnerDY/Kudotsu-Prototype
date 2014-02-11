@@ -69,7 +69,7 @@ Prequisites:
 9.Create the bundle for JavaScript and corresponding css.
 
 
-##### FYI: I am not sure about why my connection to the MYSQL is ok, but I can not create table to store account information on the azure clearDB(MYSQL). Nevertheless, I provide the application using ADO.NET to show database and SQL on local machine.
+##### FYI: The connection to the MYSQL is ok, By using MYSQL for storage, the default data storage mechanism for ASP.NET identity needs to be changed. So the table is not working so far on the azure. Nevertheless, I provide the application using ADO.NET to show the understanding of database and SQL on local machine.
 
 
 
