@@ -47,7 +47,12 @@ Model View Controller is choosen for this prototype.
 
 5.Set up the conncentionString at web config
 
-6.Check the MYSQL table on windows azure.
+#####Entity Framework Code First uses a MigrationHistory table to keep track of model changes and to ensure the consistency between the database schema and conceptual schema. However, this table does not work for MySQL by default because the primary key is too large. 
+
+So basically, the default data storage mechanism should be modified by adding MySqlInitializer.cs, MySqlHistoryContext
+.cs and MySqlConfiguration.cs
+
+6.Check the MYSQL table on windows azure by MYSQL Workblench.
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/14.jpg)
 
