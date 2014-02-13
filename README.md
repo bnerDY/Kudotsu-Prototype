@@ -28,7 +28,7 @@ Model View Controller is choosen for this prototype.
 
 #####Public address   http://martindemo2013.azurewebsites.net/ 
 
-Prequisites:
+#####Basic steps for setting up the website:
 
 1.Add clearDB(MySQL) first
 
@@ -47,11 +47,16 @@ Prequisites:
 
 5.Set up the conncentionString at web config
 
-6.Check the table on windows azure.
+#####Entity Framework Code First uses a MigrationHistory table to keep track of model changes and to ensure the consistency between the database schema and conceptual schema. However, this table does not work for MySQL by default because the primary key is too large. 
 
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/11.jpg)
+So basically, the default data storage mechanism should be modified by adding MySqlInitializer.cs, MySqlHistoryContext
+.cs and MySqlConfiguration.cs
 
-7.Create the bundle for JavaScript and corresponding css.
+6.Check the MYSQL table on windows azure by MYSQL Workblench.
+
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/14.jpg)
+
+
 
 
 
