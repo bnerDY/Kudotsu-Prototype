@@ -47,29 +47,14 @@ Prequisites:
 
 5.Set up the conncentionString at web config
 
-
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/2.jpg)
-
-6.Add some fields to the register pages except the dropdownlist(state) and image upload
-
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/4.jpg)
-
-7.Solve the drop down list issue by using controller
-
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/3.jpg)
-
-
-
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/7.jpg)
-
-8.Check the table on windows azure.
+6.Check the table on windows azure.
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/11.jpg)
 
-9.Create the bundle for JavaScript and corresponding css.
+7.Create the bundle for JavaScript and corresponding css.
 
 
-##### FYI: The connection to the MYSQL is ok, By using MYSQL for storage, the default data storage mechanism for ASP.NET identity needs to be changed. So the table is not working so far on the azure. Nevertheless, I provide the application using ADO.NET to show the understanding of database and SQL on local DB.
+
 
 
 
