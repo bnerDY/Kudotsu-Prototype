@@ -67,6 +67,23 @@
     </div>
 }
 
+@using (Html.BeginForm("ValidateCommand", "PayPal"))
+{
+    <div class="form-group">
+        <div class="col-md-10">
+            Product Name:<input type="text" name="product" value="Register Fee" readonly />
+        </div>
+        
+        <div class="col-md-10">
+            Total Price: $<input type="text" name="totalPrice" value="1" readonly />
+        </div>
+        <div class="col-md-10">
+            <input type="submit" name="btnConfirm" value="Check Out with Paypal" />
+        </div>
+    </div>
+}
+
+
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
