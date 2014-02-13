@@ -59,7 +59,6 @@ namespace Demo.Models
         [Display(Name = "Date of Birth")]
         public string DOB { get; set; }
 
-        [Required]
         [Display(Name = "Photo")]
         public string photo { get; set; }
 

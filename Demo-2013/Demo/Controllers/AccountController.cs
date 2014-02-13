@@ -66,18 +66,6 @@ namespace Demo.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-            List<string> ListItems = new List<string>();
-            ListItems.Add("--Select--");
-            ListItems.Add("QLD");
-            ListItems.Add("NSW");
-            ListItems.Add("VIC");
-            ListItems.Add("SA");
-            ListItems.Add("WA");
-            ListItems.Add("ACT");
-            ListItems.Add("TAS");
-            ListItems.Add("NT");
-            SelectList States = new SelectList(ListItems);
-            ViewData["States"] = States;
             return View();
         }
 
