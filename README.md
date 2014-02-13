@@ -47,7 +47,7 @@ Model View Controller is choosen for this prototype.
 
 5.Set up the conncentionString at web config
 
-6.Check the table on windows azure.
+6.Check the MYSQL table on windows azure.
 
 ![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/14.jpg)
 
