@@ -28,7 +28,7 @@ Model View Controller is choosen for this prototype.
 
 #####Public address   http://martindemo2013.azurewebsites.net/ 
 
-Prequisites:
+#####Basic steps for setting up the website:
 
 1.Add clearDB(MySQL) first
 
@@ -49,9 +49,9 @@ Prequisites:
 
 6.Check the table on windows azure.
 
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/11.jpg)
+![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/14.jpg)
 
-7.Create the bundle for JavaScript and corresponding css.
+
 
 
 
