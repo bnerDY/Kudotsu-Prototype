@@ -1,4 +1,4 @@
-Kudotsu-Prototype
+MVC5 Prototype
 =================
 
 #####Topic: Prototype for Demo project using MVC5, Windows Azure cloud platform and Azure storage table in C#.
@@ -54,7 +54,7 @@ So basically, the default data storage mechanism should be modified by adding My
 
 6.Check the MYSQL table on windows azure by MYSQL Workblench.
 
-![alt tag](https://raw2.github.com/bnerDY/Kudotsu-Prototype/master/Demo-images/14.jpg)
+![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/14.jpg)
 
 
 
