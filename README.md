@@ -7,10 +7,8 @@ The following content is the detail for the prototype.
 
 I provide two versions for the prototype.
 
-Model View Controller is choosen for this prototype.
 
-
-#####1. The application is built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later) (In the folder Demo-2010)
+#####1. The application was built with Visual studio 2010 in C# due to the old OS on my machine.(The MVC5 need Windows 7 SP1 or later) (In the folder Demo-2010)
 
 1.It was built in ADO.NET technology. It can be executed locally by downloading the Demo-2010
 
@@ -24,7 +22,7 @@ Model View Controller is choosen for this prototype.
 4.ADO Local database SERVICE table for login.
 
 
-#####2.This version was made by MYSQL + MVC5 on azure. (In the folder Demo-2013)
+#####2.This version was made by Visual studio 2013 using MYSQL + MVC5 on azure. (In the folder Demo-2013)
 
 #####Public address   http://martindemo2013.azurewebsites.net/ 
 
