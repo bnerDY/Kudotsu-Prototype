@@ -55,11 +55,3 @@ So basically, the default data storage mechanism should be modified by adding My
 ![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/14.jpg)
 
 
-
-
-
-
-
-
-Copyright (c) 2014, Martin Yu(bnerDY)
-All rights reserved.
