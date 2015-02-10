@@ -12,13 +12,13 @@ I provide two versions for the prototype.
 
 1.It was built in ADO.NET technology. It can be executed locally by downloading the Demo-2010
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/8.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/8.jpg)
 2.This is the general design view for the page.
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/9.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/9.jpg)
 3.ADO Local database SERVICE table for contact.
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/10.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/10.jpg)
 4.ADO Local database SERVICE table for login.
 
 
@@ -32,14 +32,14 @@ I provide two versions for the prototype.
 
 2.Create the website using clearDB from step 1.
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/5.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/5.jpg)
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/6.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/6.jpg)
 
 
 3.MVC5 and MYSQL:
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/1.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/1.jpg)
 
 4.Update the entity framework to the lastest version and set up the connect string for MYSQL develop enviroment.
 
@@ -52,6 +52,6 @@ So basically, the default data storage mechanism should be modified by adding My
 
 6.Check the MYSQL table on windows azure by MYSQL Workblench.
 
-![alt tag](https://raw2.github.com/bnerDY/MVC5Prototype/master/Demo-images/14.jpg)
+![alt tag](https://github.com/bnerDY/MVC5-Prototype/blob/master/Demo-images/14.jpg)
 
 
